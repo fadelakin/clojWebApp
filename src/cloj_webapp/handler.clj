@@ -1,5 +1,5 @@
 (ns cloj-webapp.handler
-	(:require [cloj-webapp.views :as [views]
+	(:require [cloj-webapp.views :as views]
 		[compojure.core :as cc]
 		[compojure.handler :as handler]
 		[compojure.route :as route]))
