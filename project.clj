@@ -1,8 +1,11 @@
-(defproject cloj-webapp "0.1.0-SNAPSHOT"
+(defproject cloj-webapp "0.1.0"
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
   :dependencies [[org.clojure/clojure "1.5.1"]
-                 [compojure "1.1.6"]]
+                 [compojure "1.1.6"]
+                 [hiccup "1.0.2"]
+                 [org.clojure/java.jdbc "0.2.3"]
+                 [com.h2database/h2 "1.3.170"]]
   :plugins [[lein-ring "0.8.8"]]
   :ring {:handler cloj-webapp.handler/app}
   :profiles
