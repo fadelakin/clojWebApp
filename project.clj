@@ -1,5 +1,5 @@
 (defproject cloj-webapp "0.1.0"
-  :description "FIXME: write description"
+  :description "A basic web app written in Clojure to store and display some 2D (x,y) locations."
   :url "http://example.com/FIXME"
   :main cloj-webapp.handler
   :dependencies [[org.clojure/clojure "1.5.1"]
